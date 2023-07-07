@@ -1,4 +1,10 @@
 # Write a method - let's call it boxy(n) - which produces output in STDOUT as shown below.
+# 
+# --  --  --  --  --  --  --  --  --  --  --
+# ------------------------------------------
+# | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
+# ------------------------------------------
+# --  --  --  --  --  --  --  --  --  --  --
 
 def boxy(n)
   digit_length = n.to_s.length
