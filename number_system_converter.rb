@@ -14,7 +14,7 @@ def decimal_to_binary(decimal)
   binary = ""
 
   while decimal > 0
-    binary = (decimal % 2 == 1 ? "1" : "0") + binary 
+    binary = (decimal % 2).to_s + binary 
     decimal = decimal / 2.floor
   end
 
